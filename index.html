@@ -15,14 +15,8 @@
 
       <script>
         window.addEventListener('message', function(event) {
-            alert("click reseived");
-
           console.log("Message received from the child: " + event.data); // Message received from child
           document.getElementById("messageText").setAttribute('value',event.data);
-
-
-
-
         });
 
 
