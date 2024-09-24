@@ -14,9 +14,12 @@
       
 
       <script>
+
         window.addEventListener('message', function(event) {
+          
           console.log("Message received from the child: " + event.data); // Message received from child
           document.getElementById("messageText").setAttribute('value',event.data);
+
         });
 
 
@@ -24,7 +27,7 @@
 
       
       
-      <iframe src="https://andrewandreevich.github.io/ar_test_fw2h87kdn/" height="720" width="720" title="Iframe Example" allow="camera"></iframe> 
+      <iframe src="https://andrewandreevich.github.io/ar_test_fw2h87kdn/" height="100%" width="100%" title="Iframe Example" allow="camera"></iframe> 
 
 
   </body>
