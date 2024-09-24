@@ -8,7 +8,7 @@
 
 
     <div id="app">
-        <input type="text" id="messageText" value="empty"/>
+      
         
       </div>
       
@@ -16,9 +16,9 @@
       <script>
 
         window.addEventListener('message', function(event) {
-          
+          //<input type="text" id="messageText" value="empty"/>
           console.log("Message received from the child: " + event.data); // Message received from child
-          document.getElementById("messageText").setAttribute('value',event.data);
+          // document.getElementById("messageText").setAttribute('value',event.data);
 
         });
 
