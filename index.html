@@ -13,6 +13,10 @@
       el.addEventListener('mousedown', function () {
         el.setAttribute('color', data.color);
       });
+
+      el.addEventListener('mouseleave', function () {
+        el.setAttribute('color', defaultColor);
+      });
     }
   });
 </script>
